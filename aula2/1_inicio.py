@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import datetime
+from datetime import datetime
 
 # Usando session state para que as outras páginas também tenham acesso ao dataframe
 if "data" not in st.session_state:
